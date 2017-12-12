@@ -4,7 +4,12 @@
   <meta charset="utf-8">
   <title>Swiper demo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="百度地图,百度地图API，百度地图自定义工具，百度地图所见即所得工具" />
+  <meta name="description" content="百度地图API自定义地图，帮助用户在可视化操作下生成百度地图" />
+  <title>百度地图API自定义地图</title>
+  <!--引用百度地图API-->
+  <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=IA5gWR2w2ClVCGyUV1B2XNoNt1nmA53k"></script>
   <!-- Link Swiper's CSS -->
   <link rel="stylesheet" href="css/swiper.min.css">
   <link rel="stylesheet" href="css/animate.min.css">
@@ -52,7 +57,8 @@
       </div>
       <!--第四屏-->
       <div class="swiper-slide four">
-        <div></div>
+        <!--百度地图容器-->
+        <div style="width:70%;height:50%;border:#ccc solid 1px;font-size:12px" id="map"></div>
       </div>
     </div>
     <!-- Add Pagination -->

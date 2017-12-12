@@ -148,6 +148,10 @@ body {
     left: 20%;
     bottom: 70%;
 }
+/*第四屏*/
+.swiper-slide.four div{
+    margin:auto;
+}
 /*音乐部分*/
  #music{
      width: 60px;
